@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table</title>
+    <style>
+    table {
+        width: 80%;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        align-content: center;
+        
+    }
+    #header {
+        background-color: #2471a3;
+        color:cornsilk;
+        height: 150px;
+    }
+    #left {
+        background-color: #FF5733;
+        color: cornsilk;
+        height: 350px;
+        width: 15%;
+    }
+    #center {
+        background-color: #C70039;
+        color: cornsilk;
+        height: 350px;
+        width: 60%;
+        
+    }
+    #right {
+        background-color:#900C3F;
+        color: cornsilk;
+        height: 350px;
+        width: 25%;
+    }
+    #footer{
+        background-color: #9b59b6;
+        color: cornsilk;
+        height: 100px;
+        width: 80%;
+    }
+    </style>
+</head>
+<body>
+    <table cellspacing="0" cellpadding="10" align="center">
+        <tr>
+            <td colspan="3" id="header"><h1>Header</h1></td>
+        </tr>
+        <tr>            
+            <td id="left"><h1>Left</h1></td>
+            <td id="center"><h1>Center</h1></td>
+            <td id="right"><h1>Right</h1></td>
+        </tr>
+        <tr>
+            <td colspan="3" id="footer"><h1>Footer</h1></td>
+        </tr>
+    </table>
+</body>
+</html>
