@@ -1,2 +1,2 @@
-# QA
+# Oleh Mytiai
  SkillUp Courses
